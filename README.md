@@ -20,5 +20,5 @@ use -h or --help for help and -v or --verbose for verbose
 
 Input data must follow the schema:
 
-Transaction ID[TAB]Timestamp[TAB]Item[TAB]Item count
+Transaction ID\<TAB\>Timestamp\<TAB\>Item\<TAB\>Item count
 
