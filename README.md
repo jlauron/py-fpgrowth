@@ -8,16 +8,17 @@ for more information.
 
     $ python fpgrowth.py -o output_file -s support -t treshold
 
-Default values are:
+use -h or --help for help and -v or --verbose for verbose
+
+**Default config:**
 
 - output_file = fpgrowth-results.out
 - support = 3
 - treshold = 0.20
 
+**Input data:**
+
 Input data must follow the schema:
 
 Transaction ID[TAB]Timestamp[TAB]Item[TAB]Item count
-
-for help use -h or --help
-for verbose use -v or --verbose
 
