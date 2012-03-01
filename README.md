@@ -1,7 +1,8 @@
 ## Implementation of the FP-Growth algorithm 
 
 This project contains a python implementation of the FP-Growth algorithm
-used for mining frequent itemsets. 
+used for mining frequent itemsets. See http://en.wikipedia.org/wiki/Association_rule_learning#cite_note-fp-growth-17
+for more information.
 
 **Usage:**
 
@@ -9,11 +10,9 @@ used for mining frequent itemsets.
 
 Default values are:
 
-output_file = fpgrowth-results.out
-
-support = 3
-
-treshold = 0.20
+- output_file = fpgrowth-results.out
+- support = 3
+- treshold = 0.20
 
 Input data must follow the schema:
 
